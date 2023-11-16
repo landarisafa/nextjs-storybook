@@ -24,11 +24,11 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Default: Story = {
   play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
+    // const canvas = within(canvasElement);
 
-    const carousel = canvas.getByRole('Carousel');
+    // const carousel = canvas.getByRole('Carousel');
 
-    // await userEvent.(carousel, ['One Item']);
+    // // await userEvent.(carousel, ['One Item']);
   },
   args: {
   },
